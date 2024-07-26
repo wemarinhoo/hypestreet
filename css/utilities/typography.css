@@ -1,43 +1,43 @@
 .text-1-xl{
-  font: 700 2.5rem/1 “Nunito”, sans-serif;
+  font: 700 2.5rem/1 'Nunito', sans-serif;
 }
 
 .text-2-xl{
-  font: 700 2.5rem/1 “Inter”, sans-serif;
+  font: 700 2.5rem/1 'Inter', sans-serif;
 }
 
 .text-1-x{
-  font: 700 1.5rem/1 “Nunito”, sans-serif;
+  font: 700 1.5rem/1 'Nunito', sans-serif;
 }
 
 .text-1-lg{
-  font: 700 1.25rem/1 “Nunito”, sans-serif;
+  font: 700 1.25rem/1 'Nunito', sans-serif;
 }
 
 .text-2-lg-m{
-  font: 500 1.25rem/1 “Inter”, sans-serif;
+  font: 500 1.25rem/1 'Inter', sans-serif;
 }
 
 .text-2-lg{
-  font: 400 1.25rem/1.5 “Inter”, sans-serif;
+  font: 400 1.25rem/1.5 'Inter', sans-serif;
 }
 
 .text-2-lg-b{
-  font: 600 1.25rem/1 “Inter”, sans-serif;
+  font: 600 1.25rem/1 'Inter', sans-serif;
 }
 
 .text-1-s{
-  font: 700 1rem/1 “Nunito”, sans-serif;
+  font: 700 1rem/1 'Nunito', sans-serif;
 }
 
 .text-2-s{
-  font: 400 1rem/1.5 “Inter”, sans-serif;
+  font: 400 1rem/1.5 'Inter', sans-serif;
 }
 
 .text-1-xs{
-  font: 700 0.875rem/1 “Nunito”, sans-serif;
+  font: 700 0.875rem/1 'Nunito', sans-serif;
 }
 
 .text-2-xs{
-  font: 500 0.875rem/1 “Inter”, sans-serif;
+  font: 500 0.875rem/1 'Inter', sans-serif;
 }
