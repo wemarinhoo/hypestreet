@@ -8,12 +8,18 @@
   background: linear-gradient(180deg, #EDCF5D 0%, #E8BC37 100%);
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  max-width: max-content;
   gap: 12px;
   color: var(--color-p3);
   border: none;
   cursor: pointer;
   padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.button:hover, .button-secondary:hover{
+  opacity: .9;
 }
 
 .button-secondary{
