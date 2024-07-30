@@ -1,0 +1,45 @@
+.footer-bg{
+  background: var(--color-5);
+  padding: 80px 0;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 64px;
+}
+
+.footer h2{
+  margin-bottom: 12px;
+}
+
+.footer-separator{
+  width: 70%;
+  height: 2px;
+  background: #111;
+  margin-bottom: 24px;
+}
+
+.footer-contact > ul li + li{
+  margin: 12px 0 24px 0;
+}
+
+.footer-network ul{
+  display: flex;
+  gap: 32px;
+}
+
+.footer-information ul{
+  margin-bottom: 40px;
+}
+
+.footer-payments div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-payments img{
+  width: 44px;
+  height: 44px;
+}
