@@ -1,0 +1,23 @@
+.privacy-policy h2{
+  margin-bottom: 64px;
+}
+
+.privacy-policy-item{
+  margin-bottom: 40px;
+}
+
+.privacy-policy-item h3{
+  margin-bottom: 20px;
+}
+
+.privacy-policy-item p{
+  max-width: 75ch;
+}
+
+.privacy-policy-item p + p{
+  margin-top: 12px;
+}
+
+.privacy-policy-list{
+  margin-bottom: 120px;
+}
