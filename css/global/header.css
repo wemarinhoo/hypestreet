@@ -1,8 +1,9 @@
 .header{
   display: flex;
-  padding-top: 40px;
+  padding: 40px 0 64px 0;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .header-input{
@@ -32,6 +33,12 @@
   display: flex;
   align-items: center;
   gap: 32px;
+}
+
+.header-functions .functions{
+  display: flex;
+  gap: 32px;
+  align-items: center;
 }
 
 .function button{
@@ -76,4 +83,60 @@
 
 .profile button:hover .dot{
   transform: translateY(-4px);
+}
+
+ .header-functions .functions.view{
+  display: flex;
+ }
+
+ @keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px){
+  .header{
+    padding-bottom: 70px;
+  }
+
+  .profile img:first-child{
+    width: 44x;
+    height: 44px;
+  }
+
+  .profile-img{
+    margin-left: 0;
+  }
+
+  .header-input img{
+    top: 10px;
+  }
+
+  .header-input{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    margin-left: 20px;
+  }
+
+  .header input{
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .header-functions .functions{
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    padding: 12px;
+    background-color: var(--color-0);
+    border-radius: 12px;
+    display: none;
+    animation: fade-in 0.3s forwards;
+  }
 }
