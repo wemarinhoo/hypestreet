@@ -17,6 +17,7 @@
   border-radius: 12px;
   position: relative;
   outline: none;
+  transition: 0.3s;
 }
 
 .header input:focus{
@@ -83,6 +84,7 @@
 
 .profile button:hover .dot{
   transform: translateY(-4px);
+  transition: 0.3s;
 }
 
  .header-functions .functions.view{
@@ -113,7 +115,7 @@
   }
 
   .header-input img{
-    top: 10px;
+    top: 9px;
   }
 
   .header-input{
