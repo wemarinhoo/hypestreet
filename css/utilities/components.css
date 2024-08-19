@@ -9,13 +9,15 @@
   display: flex;
   align-items: center;
   text-align: center;
-  max-width: max-content;
+  justify-content: center;
   gap: 12px;
   color: var(--color-p3);
   border: none;
   cursor: pointer;
   padding: 10px 20px;
   border-radius: 12px;
+  letter-spacing: 1.5;
+  transition: 0.3s;
 }
 
 .button:hover, .button-secondary:hover{
@@ -29,5 +31,6 @@
   align-items: center;
   justify-content: center;
   border: none;
+  border-radius: 12px;
   cursor: pointer;
 }
