@@ -8,38 +8,88 @@
   <meta name="keywords"
     content="urban fashion, urban clothes, streetwear, fashion trends, urban style, accessories, young fashion, casual fashion, comfortable clothes, urban looks">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favico.svg" type="image/svg">
   <script src="./js/script.js" defer></script>
-  <title>HypeStreet | StreetWear</title>
+  <title>HypeStreet | Privacy Policy</title>
 </head>
 
 <body>
-  <header class="header container">
-    <a href="/">
-      <h1 class="text-1-xl color-5">Hype<span class="color-p1">Street</span></h1>
-    </a>
-
-    <div class="header-input">
-      <input class="text-2-lg color-3" type="text" name="search" id="search" placeholder="Search" autocomplete="off">
-      <img src="./img/functional/search.svg" alt="" srcset="">
-    </div>
-
-    <nav class="header-functions">
-      <div class="function">
-        <button class="text-1-xs color-5" aria-label="open cart"><img src="./img/functional/cart.svg"
-            alt="">Cart</button>
+    <header class="header container">
+      <a href="/">
+        <h1 class="text-1-xl color-5">Hype<span class="color-p1">Street</span></h1>
+      </a>
+    
+      <div class="header-input">
+        <input class="text-2-lg color-3" type="text" name="search" id="search" placeholder="Search" autocomplete="off">
+        <img src="./img/functional/search.svg" alt="" srcset="">
       </div>
-
-      <div class="function">
-        <button class="text-1-xs color-5" aria-label="open favorites"><img src="./img/functional/favorites.svg"
-            alt="">Favorites</button>
+    
+      <nav class="header-functions">
+        <div class="functions">
+          <div class="function-cart">
+            <button class="cart-button text-1-s color-5" aria-label="open cart"><img src="./img/functional/cart.svg"
+                alt="">Cart</button>
+          </div>
+    
+          <div class="functions-menu">
+            <button class="text-1-s color-5" aria-label="open favorites"><img src="./img/functional/user.svg"
+                alt="">Account</button>
+    
+            <div class="separator"></div>
+    
+            <button class="text-1-s color-5" aria-label="open favorites"><img src="./img/functional/favorites.svg"
+                alt="">Favorites</button>
+    
+          </div>
+        </div>
+    
+        <div class="profile">
+          <button aria-label="open profile"><img src="./img/profiles/profile1.svg" alt="" srcset=""><img class="dot"
+              src="./img/functional/dot-fill.svg" alt=""></button>
+        </div>
+      </nav>
+    </header>
+    
+    <section class="cart-container">
+      <div class="cart">
+        <div class="cart-header">
+          <h1 class="text-1-x color-5">My Cart<span class="text-1-x color-5">()</span></h1>
+    
+          <img class="close-cart" src="./img/functional/X.svg" alt="">
+    
+          <div class="separator"></div>
+    
+          <div class="cart-item">
+            <!-- <img src="#" alt=""> -->
+            <div class="cart-item-info">
+              <div class="cart-item-info-header">
+                <h2 class="text-2-lg-b color-5"></h2>
+                <!-- <img src="./img/functional/trash.svg" alt=""> -->
+              </div>
+    
+              <div class="cart-item-info-quantity">
+                <!-- <button class="text-2-lg color-2">-</button>
+                  <button class="text-2-lg color-2">1</button>
+                  <button class="text-2-lg color-2">+</button> -->
+              </div>
+    
+              <span class="text-2-lg-b color-s1"></span>
+            </div>
+          </div>
+        </div>
+    
+        <div class="cart-button">
+          <div class="cart-button-info">
+            <span class="text-2-lg-b color-5">TOTAL</span>
+            <span class="text-2-lg-b color-5">R$9.99</span>
+          </div>
+    
+          <button class="button text-1-lg">PURCHASE</button>
+    
+          <a href="#" class="keep-buying text-2-s color-5">Keep Buying</a>
+        </div>
       </div>
-
-      <div class="profile">
-        <button aria-label="open profile"><img src="./img/profiles/profile1.svg" alt="" srcset=""><img class="dot"
-            src="./img/functional/dot-fill.svg" alt=""></button>
-      </div>
-    </nav>
-  </header>
+    </section>
 
   <main class="privacy-policy container">
     <h2 class="text-1-xl color-5">Privacy Policy<span class="color-p1">.</span></h2>

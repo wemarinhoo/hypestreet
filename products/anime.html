@@ -8,40 +8,88 @@
   <meta name="keywords"
     content="urban fashion, urban clothes, streetwear, fashion trends, urban style, accessories, young fashion, casual fashion, comfortable clothes, urban looks">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../img/favico.svg" type="image/svg">
   <script src="../js/script.js" defer></script>
   <title>HypeStreet | Sweatshirt Anime</title>
 </head>
 
 <body id="anime">
-  <header class="header container">
-    <a href="/">
-      <h1 class="text-1-xl color-5">Hype<span class="color-p1">Street</span></h1>
-    </a>
-
-    <div class="header-input">
-      <input class="text-2-lg color-3" type="text" name="search" id="search" placeholder="Search" autocomplete="off">
-      <img src="../img/functional/search.svg" alt="" srcset="">
-    </div>
-
-    <nav class="header-functions">
-      <div class="functions">
-        <div class="function">
-          <button class="text-1-xs color-5" aria-label="open cart"><img src="../img/functional/cart.svg"
-              alt="">Cart</button>
+    <header class="header container">
+      <a href="/">
+        <h1 class="text-1-xl color-5">Hype<span class="color-p1">Street</span></h1>
+      </a>
+    
+      <div class="header-input">
+        <input class="text-2-lg color-3" type="text" name="search" id="search" placeholder="Search" autocomplete="off">
+        <img src="../img/functional/search.svg" alt="" srcset="">
+      </div>
+    
+      <nav class="header-functions">
+        <div class="functions">
+          <div class="function-cart">
+            <button class="cart-button text-1-s color-5" aria-label="open cart"><img src="../img/functional/cart.svg"
+                alt="">Cart</button>
+          </div>
+    
+          <div class="functions-menu">
+            <button class="text-1-s color-5" aria-label="open favorites"><img src="../img/functional/user.svg"
+                alt="">Account</button>
+    
+            <div class="separator"></div>
+    
+            <button class="text-1-s color-5" aria-label="open favorites"><img src="../img/functional/favorites.svg"
+                alt="">Favorites</button>
+    
+          </div>
         </div>
-
-        <div class="function">
-          <button class="text-1-xs color-5" aria-label="open favorites"><img src="../img/functional/favorites.svg"
-              alt="">Favorites</button>
+    
+        <div class="profile">
+          <button aria-label="open profile"><img src="../img/profiles/profile1.svg" alt="" srcset=""><img class="dot"
+              src="../img/functional/dot-fill.svg" alt=""></button>
+        </div>
+      </nav>
+    </header>
+    
+    <section class="cart-container">
+      <div class="cart">
+        <div class="cart-header">
+          <h1 class="text-1-x color-5">My Cart<span class="text-1-x color-5">()</span></h1>
+    
+          <img class="close-cart" src="../img/functional/X.svg" alt="">
+    
+          <div class="separator"></div>
+    
+          <div class="cart-item">
+            <!-- <img src="#" alt=""> -->
+            <div class="cart-item-info">
+              <div class="cart-item-info-header">
+                <h2 class="text-2-lg-b color-5"></h2>
+                <!-- <img src="../img/functional/trash.svg" alt=""> -->
+              </div>
+    
+              <div class="cart-item-info-quantity">
+                <!-- <button class="text-2-lg color-2">-</button>
+                  <button class="text-2-lg color-2">1</button>
+                  <button class="text-2-lg color-2">+</button> -->
+              </div>
+    
+              <span class="text-2-lg-b color-s1"></span>
+            </div>
+          </div>
+        </div>
+    
+        <div class="cart-button">
+          <div class="cart-button-info">
+            <span class="text-2-lg-b color-5">TOTAL</span>
+            <span class="text-2-lg-b color-5">R$9.99</span>
+          </div>
+    
+          <button class="button text-1-lg">PURCHASE</button>
+    
+          <a href="#" class="keep-buying text-2-s color-5">Keep Buying</a>
         </div>
       </div>
-
-      <div class="profile">
-        <button aria-label="open profile"><img src="../img/profiles/profile1.svg" alt="" srcset=""><img class="dot"
-            src="../img/functional/dot-fill.svg" alt=""></button>
-      </div>
-    </nav>
-  </header>
+    </section>
 
   <main class="product-intern container">
     <div class="product-imgs">
@@ -53,14 +101,14 @@
     <div class="product-info">
       <div>
         <div class="product-info-header">
-          <img src="../img/bussines/darkness.svg" alt="">
+          <img src=".../img/bussines/darkness.svg" alt="">
           <h2 class="text-1-x color-4">Darkness Clothing</h2>
         </div>
 
         <h1 class="product-info-name text-2-xl color-4">Sweartshirt Anime</h1>
 
         <div class="product-info-review">
-          <a href="#reviews" class="text-2-lg-b color-4"><img src="../img/functional/stars.svg" alt="">5</a>
+          <a href="#reviews" class="text-2-lg-b color-4"><img src=".../img/functional/stars.svg" alt="">5</a>
           <span class="text-2-s">(42 reviews)</span>
         </div>
 
@@ -101,13 +149,13 @@
 
       <div>
         <div class="product-info-button">
-          <button class="button text-1-x"><img src="../img/functional/cart-button.svg" alt="" srcset="">ADD TO
+          <button class="button text-1-x"><img src=".../img/functional/cart-button.svg" alt="" srcset="">ADD TO
             CART</button>
-          <button class="button-secondary"><img src="../img/functional/favorite-button.svg" alt="" srcset=""></button>
+          <button class="button-secondary"><img src=".../img/functional/favorite-button.svg" alt="" srcset=""></button>
         </div>
 
         <div class="product-info-shipping">
-          <span class="text-2-xs color-4"><img src="../img/functional/shipping.svg" alt="">Free Shipping From $99</span>
+          <span class="text-2-xs color-4"><img src=".../img/functional/shipping.svg" alt="">Free Shipping From $99</span>
           <a href="" class="text-2-xs color-3">Size Guide</a>
         </div>
       </div>
@@ -120,37 +168,37 @@
 
       <div class="details-info">
         <div class="details-info-item">
-          <img src="../img/details/material.svg" alt="">
+          <img src=".../img/details/material.svg" alt="">
           <h3 class="text-1-lg color-4">Material</h3>
           <p class="text-2-s color-3">100% premium cotton</p>
         </div>
 
         <div class="details-info-item">
-          <img src="../img/details/design.svg" alt="">
+          <img src=".../img/details/design.svg" alt="">
           <h3 class="text-1-lg color-4">Design</h3>
           <p class="text-2-s color-3">urban and modern design</p>
         </div>
 
         <div class="details-info-item">
-          <img src="../img/details/modeling.svg" alt="">
+          <img src=".../img/details/modeling.svg" alt="">
           <h3 class="text-1-lg color-4">Modeling</h3>
           <p class="text-2-s color-3">comfortable, relaxed fit</p>
         </div>
 
         <div class="details-info-item">
-          <img src="../img/details/sustainable.svg" alt="">
+          <img src=".../img/details/sustainable.svg" alt="">
           <h3 class="text-1-lg color-4">Sustainable</h3>
           <p class="text-2-s color-3">Eco-frindly technical production</p>
         </div>
 
         <div class="details-info-item">
-          <img src="../img/details/durable.svg" alt="">
+          <img src=".../img/details/durable.svg" alt="">
           <h3 class="text-1-lg color-4">Durable</h3>
           <p class="text-2-s color-3">greater reinforcement, resistance and durability</p>
         </div>
 
         <div class="details-info-item">
-          <img src="../img/details/versatile.svg" alt="">
+          <img src=".../img/details/versatile.svg" alt="">
           <h3 class="text-1-lg color-4">Versatile</h3>
           <p class="text-2-s color-3">Ideal for composing casual and cool looks</p>
         </div>
@@ -159,7 +207,7 @@
 
     <div class="reviews" id="reviews">
       <div class="reviews-header">
-        <img src="../img/functional/stars.svg" alt="">
+        <img src=".../img/functional/stars.svg" alt="">
         <span class="text-2-xl">5</span>
       </div>
 
@@ -201,19 +249,19 @@
 
       <div class="choices-info">
         <div class="choices-info-item">
-          <a href="../products/skull-vibes-female.html"><img src="../img/products/skull-fem1.jpg" alt=""></a>
+          <a href=".../products/skull-vibes-female.html"><img src=".../img/products/skull-fem1.jpg" alt=""></a>
           <h3 class="text-1-s color-4">Skull Vibes Female</h3>
           <span class="text-2-s-b color-s1">$9.99</span>
         </div>
 
         <div class="choices-info-item">
-          <a href="../products/LSKD-minimalist.html"><img src="../img/products/LSKD1.jpg" alt=""></a>
+          <a href=".../products/LSKD-minimalist.html"><img src=".../img/products/LSKD1.jpg" alt=""></a>
           <h3 class="text-1-s color-4">LSKD Minimalist</h3>
           <span class="text-2-s-b color-s1">$19.99</span>
         </div>
 
         <div class="choices-info-item">
-          <a href="../products/outcast-cavalier.html"><img src="../img/products/outcast-cavalier1.jpg" alt=""></a>
+          <a href=".../products/outcast-cavalier.html"><img src=".../img/products/outcast-cavalier1.jpg" alt=""></a>
           <h3 class="text-1-s color-4">Outcast Cavalier</h3>
           <span class="text-2-s-b color-s1">$14.99</span>
         </div>
@@ -223,22 +271,22 @@
     <div class="reviews-comment">
       <h2 class="text-1-xl color-4">Reviews</h2>
       <div class="reviews-comment-person">
-        <img src="../img/profiles/profile2.svg" alt="">
+        <img src=".../img/profiles/profile2.svg" alt="">
       </div>
 
       <div class="reviews-comment-info">
         <h3 class="text-2-lg-b color-4">Anny J.<span class="text-2-lg color-3">yesterday</span></h3>
-        <img src="../img/functional/stars.svg" alt="">
+        <img src=".../img/functional/stars.svg" alt="">
         <p class="text-2-lg color-4">Soft, comfy, great fit. Color stays vibrant. Stylish design. Highly recommend!</p>
       </div>
 
       <div class="reviews-comment-person">
-        <img src="../img/profiles/profile3.svg" alt="">
+        <img src=".../img/profiles/profile3.svg" alt="">
       </div>
 
       <div class="reviews-comment-info">
         <h3 class="text-2-lg-b color-4">Joseph H.<span class="text-2-lg color-3">2 days ago</span></h3>
-        <img src="../img/functional/stars.svg" alt="">
+        <img src=".../img/functional/stars.svg" alt="">
         <p class="text-2-lg color-4">Good T-shirt</p>
       </div>
     </div>
@@ -261,9 +309,9 @@
 
         <div class="footer-network">
           <ul>
-            <li><a href="#"><img src="../img/networks/instagram.svg" alt=""></a></li>
-            <li><a href="#"><img src="../img/networks/faceboook.svg" alt=""></a></li>
-            <li><a href="#"><img src="../img/networks/youtube.svg" alt=""></a></li>
+            <li><a href="#"><img src=".../img/networks/instagram.svg" alt=""></a></li>
+            <li><a href="#"><img src=".../img/networks/faceboook.svg" alt=""></a></li>
+            <li><a href="#"><img src=".../img/networks/youtube.svg" alt=""></a></li>
           </ul>
         </div>
       </div>
@@ -271,23 +319,23 @@
       <div class="footer-information">
         <h2 class="text-1-x color-0">KNOW US</h2>
         <ul>
-          <li><a class="color-2 text-2-lg" href="../privacy-policy.html">Privacy Policy</a></li>
+          <li><a class="color-2 text-2-lg" href=".../privacy-policy.html">Privacy Policy</a></li>
         </ul>
 
         <h2 class="text-1-x color-0">ACCEPTED PAYMENTS</h2>
         <div class="footer-payments">
           <div>
-            <img src="../img/Payments/visa.svg" alt="">
-            <img src="../img/Payments/mastercard.svg" alt="">
-            <img src="../img/Payments/maestro.svg" alt="">
-            <img src="../img/Payments/diners.svg" alt="">
-            <img src="../img/Payments/paypal.svg" alt="">
+            <img src=".../img/Payments/visa.svg" alt="">
+            <img src=".../img/Payments/mastercard.svg" alt="">
+            <img src=".../img/Payments/maestro.svg" alt="">
+            <img src=".../img/Payments/diners.svg" alt="">
+            <img src=".../img/Payments/paypal.svg" alt="">
           </div>
 
           <div>
-            <img src="../img/Payments/discover.svg" alt="">
-            <img src="../img/Payments/stripe.svg" alt="">
-            <img src="../img/Payments/amex.svg" alt="">
+            <img src=".../img/Payments/discover.svg" alt="">
+            <img src=".../img/Payments/stripe.svg" alt="">
+            <img src=".../img/Payments/amex.svg" alt="">
           </div>
         </div>
       </div>
