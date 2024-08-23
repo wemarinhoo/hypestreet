@@ -18,6 +18,7 @@
   border-radius: 12px;
   letter-spacing: 1.5;
   transition: 0.3s;
+  font-weight: bold;
 }
 
 .button:hover, .button-secondary:hover{
@@ -33,4 +34,122 @@
   border: none;
   border-radius: 12px;
   cursor: pointer;
+}
+
+.cart-container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: flex-end;
+  background: rgba(0, 0, 0, .4);
+}
+
+.cart{
+  background: var(--color-0);
+  width: 440px;
+  padding: 12px 20px;
+  position: relative;
+  box-shadow: -4px 0 4px 0 rgba(0, 0, 0, .5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.cart-container.view{
+  display: flex;
+}
+
+.cart-container.view .cart{
+  animation: teste .3s ease-in-out forwards;
+}
+
+.cart-header h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.cart-header h1{
+  display: flex;
+  gap: 8px;
+}
+
+.cart .separator{
+  margin-bottom: 20px;
+}
+
+.close-cart{
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.cart-item{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.cart-item > img{
+  width: 140px;
+  height: 140px;
+}
+
+.cart-item-info-header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.cart-item-info-header img{
+  cursor: pointer;
+}
+
+.cart-item-info-quantity{
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.cart-item-info-quantity button{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-1);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cart-button-info{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.cart-button .button{
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.cart-button a{
+  text-align: center;
+  display: block;
+}
+
+@keyframes teste{
+  from{
+    width: 0;
+  } to{
+    width: 440px;
+  }
 }
