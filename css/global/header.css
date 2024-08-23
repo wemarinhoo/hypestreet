@@ -33,20 +33,20 @@
 .header-functions{
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 40px;
 }
 
 .header-functions .functions{
   display: flex;
   gap: 32px;
   align-items: center;
+  position: relative;
 }
 
-.function button{
+.functions button{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -54,7 +54,7 @@
   position: relative;
 }
 
-.function button::after{
+.functions button::after{
   content: "";
   display: block;
   position: absolute;
@@ -68,15 +68,38 @@
   transition: 0.3s;
 }
 
-.function button:hover::after{
+.functions button:hover::after{
   transform: scaleX(1);
+}
+
+.function-cart button{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.functions-menu{
+  border-radius: 12px;
+  padding: 20px;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  right: -137px;
+  top: 60px;
+  background: var(--color-0);
+  border: 2px solid var(--color-1);
+}
+
+.functions-menu button{
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .profile button{
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-left: 16px;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -91,7 +114,20 @@
   display: flex;
  }
 
- @keyframes fade-in {
+ .functions-menu .separator{
+  margin-bottom: 20px;
+ }
+
+ .functions-menu button:first-child{
+  margin-bottom: 20px;
+ }
+
+ .functions-menu.view{
+  display: flex;
+  animation: fade-in .3s ease-in-out forwards;
+ }
+
+  @keyframes fade-in {
   from {
     opacity: 0;
   }
@@ -110,10 +146,6 @@
     height: 44px;
   }
 
-  .profile-img{
-    margin-left: 0;
-  }
-
   .header-input img{
     top: 9px;
   }
@@ -128,17 +160,5 @@
   .header input{
     padding-top: 6px;
     padding-bottom: 6px;
-  }
-
-  .header-functions .functions{
-    flex-direction: column;
-    position: absolute;
-    right: 20px;
-    top: 100px;
-    padding: 12px;
-    background-color: var(--color-0);
-    border-radius: 12px;
-    display: none;
-    animation: fade-in 0.3s forwards;
   }
 }
