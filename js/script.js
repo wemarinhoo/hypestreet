@@ -1,13 +1,29 @@
 const profileButton = document.querySelector(".profile")
-const menuMobile = document.querySelector(".header-functions .functions")
+const dropMenu = document.querySelector(".functions-menu")
 const gallery = document.querySelector(".product-imgs")
 const photosGallery = document.querySelectorAll(".product-imgs img")
+const cartButton = document.querySelector(".cart-button")
+const cartContainer = document.querySelector(".cart-container")
+const closeCart = document.querySelector(".close-cart")
+const keepBuying = document.querySelector(".keep-buying")
+const body = document.querySelector("body")
 
 function openMenu(){
-  menuMobile.classList.toggle("view")
+  dropMenu.classList.toggle("view")
+}
+
+function openCart(){
+  cartContainer.classList.toggle("view")
+  body.classList.toggle("no-scroll")
 }
 
 profileButton.addEventListener("click", openMenu)
+
+cartButton.addEventListener("click", openCart)
+
+closeCart.addEventListener("click", openCart)
+
+keepBuying.addEventListener("click", openCart)
 
 function changeGallery(e){
   const img = e.currentTarget
