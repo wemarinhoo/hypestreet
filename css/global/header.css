@@ -105,9 +105,12 @@
   border: none;
 }
 
+.dot{
+  transition: 0.3s ease-in-out;
+}
+
 .profile button:hover .dot{
   transform: translateY(-4px);
-  transition: 0.3s;
 }
 
  .header-functions .functions.view{

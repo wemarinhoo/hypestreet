@@ -29,6 +29,10 @@
   gap: 32px;
 }
 
+.footer-network ul li{
+  transition: 0.3s ease-in-out;
+}
+
 .footer-information ul{
   margin-bottom: 40px;
 }
@@ -64,4 +68,8 @@
 
 .footer-contact > ul a:hover::after, .footer-information ul a:hover::after{
   transform: scaleX(1);
+}
+
+.footer-network ul li:hover{
+  transform: translateY(-4px);
 }
