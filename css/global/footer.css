@@ -48,7 +48,7 @@
   position: relative;
 }
 
-.footer a::after{
+.footer-contact > ul a::after, .footer-information ul a::after{
   content: "";
   display: block;
   position: absolute;
@@ -62,6 +62,6 @@
   transition: 0.3s;
 }
 
-.footer a:hover::after{
+.footer-contact > ul a:hover::after, .footer-information ul a:hover::after{
   transform: scaleX(1);
 }
